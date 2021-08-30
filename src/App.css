@@ -1,0 +1,91 @@
+body {
+  background-image: url(./images/background.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  font-family: "DM Sans", sans-serif;
+}
+
+.App {
+  position: absolute;
+  margin: auto;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: #fcfcfcad;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.329);
+  padding: 12px;
+}
+
+fieldset {
+  margin: 12px 0;
+  border-radius: 5px;
+}
+
+h1,
+h2 {
+  text-align: center;
+  margin: 0;
+}
+
+.input-ctn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 0;
+  gap: 12px;
+}
+
+.button-ctn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.button-ctn button {
+  padding: 8px;
+  border: 1px solid #000;
+  border-radius: 5%;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+}
+
+.button-ctn button:hover {
+  background: black;
+  color: white;
+  box-shadow: -7px -7px 20px 0px #fff9, -4px -4px 5px 0px #fff9,
+    7px 7px 20px 0px #0002, 4px 4px 5px 0px #0001;
+}
+
+.result-ctn {
+  text-align: center;
+}
+
+img {
+  width: 300px;
+}
+
+.underweight {
+  color: #0d6992;
+}
+
+.normal {
+  color: #59c5c7;
+}
+
+.overweight {
+  color: #f5a783;
+}
+
+.obese {
+  color: #f67c3d;
+}
